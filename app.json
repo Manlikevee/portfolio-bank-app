@@ -32,7 +32,16 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
-      ]
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos so you can add project images."
+        }
+      ],
+      "expo-sqlite",
+      "expo-font",
+      "expo-asset"
     ],
     "experiments": {
       "typedRoutes": true,
